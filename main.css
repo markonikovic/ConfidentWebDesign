@@ -1,0 +1,58 @@
+.navigation-card {
+	background: url("images/exampleicon.png") no-repeat center center;
+	background-size: 150px 150px;
+}
+
+#profile-image {
+	height: 200px;
+	width: 200px;
+	background: white url("images/profile-icon.png") no-repeat center center;
+	border: 3px solid #ccc;
+	border-radius: 50%;
+}
+
+.col {
+	background-color: red;
+	width: 50px;
+	margin: 20px;
+}
+
+#parent {
+	width: 500px;
+	border: 3px black solid;
+}
+
+#col1 {
+	height: 500px;
+	float: left;
+}
+#col2 {
+	height: 400px;
+	float: left;
+}
+#col3 {
+	height: 300px;
+	float: left;
+}
+#col4 {
+	height: 200px;
+	float: right;
+}
+#col5 {
+	height: 100px;
+	float: right;
+}
+#test {
+	clear: left;
+}
+#nav-bar {
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+#nav-bar li {
+	float: left;
+	margin-left: 30px;
+	list-style: none;
+}

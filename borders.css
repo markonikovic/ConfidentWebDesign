@@ -1,0 +1,5 @@
+.border-test {
+	width: 200px;
+	height: 100px;
+	border-style: dotted solid;
+}
